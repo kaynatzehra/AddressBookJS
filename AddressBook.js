@@ -124,5 +124,12 @@ try {
     addressBookArray.push(new Contact("Kaynat", "Zehra", "XYZ", "UP", 234567,"91 9177685934", "abc@gmail.com"));
 } catch (e) {
     console.log(e);
+
 }
+
+console.log(addressBookArray);
+console.log("\nAfter Editing Contact")
+editContact("Nayana", "Ksss", "city", "Davangere");
+editContact("Nayana", "Ksss", "state", "Karanatka");
+editContact("Nayana", "ksss", "address", "India");
 console.log(addressBookArray);
